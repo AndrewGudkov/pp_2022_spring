@@ -39,7 +39,7 @@ TEST(Gauss_Filter, _200x200) {
     ASSERT_EQ(seq, par);
 }
 
-TEST(Gauss_Filter, _320x240) {
+TEST(Gauss_Filter, _32x24) {
     int rows = 32;
     int width = 24;
     std::vector<uint8_t> img = GetRandMatrix(rows, width);
